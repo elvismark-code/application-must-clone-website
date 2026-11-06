@@ -37,15 +37,16 @@ h1 {
 }
 
 .card {
-  width: 350px;
+  width: 100%;
+  max-width: 350px
   background-color: white;
   padding: 25px;
-  margin: 20px;
+  margin: 20px 0;
   border-radius: 10px;
 }
 
 .card-wide {
-  width: 420px; 
+  max-width: 420px; 
 }
 
 .subtitle {
@@ -83,6 +84,7 @@ input {
 
 .phone-row .input-group {
   flex: 1;
+  min-width: 0;
 }
 
 .btn {
