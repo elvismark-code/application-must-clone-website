@@ -1,0 +1,154 @@
+
+* {
+  box-sizing: border-box; /* width now includes padding and border */
+}
+
+body {
+  font-family: Arial;
+  font-size: 15px;
+  background-color: lavenderblush;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portal-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.campus-logo {
+  width: 80px;
+  border-radius: 40px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.intro-label {
+  background-color: lightsteelblue;
+  color: darkblue;
+  padding: 6px 16px;
+  border-radius: 20px;
+}
+
+.card {
+  width: 350px;
+  background-color: white;
+  padding: 25px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.card-wide {
+  width: 420px; 
+}
+
+.subtitle {
+  color: gray;
+}
+
+.hint {
+  color: gray;
+  font-size: 13px;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.phone-row {
+  display: flex;
+  gap: 8px;
+}
+
+.phone-row select {
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.phone-row .input-group {
+  flex: 1;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font: inherit; /* buttons ignore the page font unless told to inherit */
+}
+
+.btn-primary {
+  width: 100%;
+  margin-top: 20px;
+  background-color: darkblue;
+  color: white;
+  border: none;
+}
+
+.btn-blue {
+  background-color: royalblue;
+  color: white;
+  border: none;
+}
+
+.btn-outline-blue {
+  background-color: white;
+  color: royalblue;
+  border: 1px solid royalblue;
+}
+
+.btn-outline-grey {
+  background-color: white;
+  color: gray;
+  border: 1px solid gray;
+}
+
+a {
+  color: gray;
+}
+
+.divider {
+  text-align: center;
+  color: gray;
+  margin: 20px 0 15px;
+}
+
+.btn-row {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-row .btn {
+  flex: 1;
+}
+
+.link-right {
+  display: block;
+  text-align: right;
+  margin-top: 10px;
+  color: royalblue;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
